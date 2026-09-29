@@ -3,7 +3,7 @@ import java.net.*;
 
 public class DictionaryClient {
     public static void main(String[] args) {
-        String host = "localhost";
+        String host = "16.4.17.148";
         int port = 5000;
 
         try (Socket socket = new Socket(host, port);
